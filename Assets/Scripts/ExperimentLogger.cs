@@ -47,7 +47,7 @@ public class ExperimentLogger : MonoBehaviour
     [Header("UDP hacia el PC del EMG (Python)")]
     public bool sendUdp = true;
     [Tooltip("IP del equipo que corre marker_server.py. Mismo equipo: 127.0.0.1")]
-    public string udpHost = "127.0.0.1";
+    public string udpHost = "10.43.40.81";
     public int udpPort = 5005;
     [Tooltip("Pings por ráfaga de sincronización de relojes.")]
     public int syncBurst = 20;
